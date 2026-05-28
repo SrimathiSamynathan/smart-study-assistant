@@ -3,7 +3,7 @@ import PyPDF2
 from groq import Groq
 from datetime import datetime
 
-client = Groq(api_key="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")
+client = Groq(api_key="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")
 
 def clean_text(text):
     text = text.replace("**", "")
